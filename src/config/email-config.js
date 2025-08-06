@@ -10,7 +10,5 @@ const mailsender = nodemailer.createTransport({
        pass: Gmail_Pass
     }
 })
-console.log(mailsender);
-
 
 module.exports = mailsender
